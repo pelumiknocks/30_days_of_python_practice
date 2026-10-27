@@ -1,4 +1,9 @@
 #adding items to a set
+set_practice = {"pratice 1", "practice two"}
+print(set_practice)
+set_revise = {"set revise 1", "set revise two"}
+set_mastery = set_practice.union(set_revise)
+print(set_mastery)
 st1 = {"item 1", "balls", "leg", "teeth", "eyes", "skin", "meat"}
 st1.add("nose")
 print(st1)
